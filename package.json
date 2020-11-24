@@ -1,0 +1,24 @@
+{
+  "name": "Softwrap-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/renanlmiranda/Softwrap-backend.git",
+  "author": "Renan Miranda <renanlmiranda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --ignore node_modules ./src/server.js"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  }
+}
