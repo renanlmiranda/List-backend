@@ -19,7 +19,7 @@ jobs:
       
       #Instalar as dependências NPM/Yarn    
       - name: Install dependencies
-      - run: yarn
+        run: yarn
       
       #Copiar projeto para digital.
       - name: Copy project to Digital
