@@ -32,8 +32,8 @@ jobs:
           source: ".,!node_modules"
           target: "~/app/softwrap-backend"
              
-      #Install dependencies
-      - name: Install dependencies on Digital Ocean
+      #Instalar dependencias e dar restart com o pm2
+      - name: Ruan productions scripts
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -43,17 +43,8 @@ jobs:
           script: | 
             cd ~/app/softwrap-backend
             yarn
+            pm2 restart softwrap-api 
             
-      #Install dependencies 
-      - name: Install dependencies on Digital Ocean
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SHH_USER }}
-          port: ${{ secrets.SSH_PORT }}
-          key: ${{ secrets.SSH_KEY }}
-          script: pm2 restart softwrap-api 
-          
     
 
 
