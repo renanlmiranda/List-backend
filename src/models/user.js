@@ -1,4 +1,3 @@
-// const mongoose = require('../database');
 const mongoose = require('mongoose');
 
 const { Schema } = mongoose;

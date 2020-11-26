@@ -10,7 +10,7 @@ module.exports = {
 
   async findAll(req, res) {
     const users = await User.find({});
-    return res.json({ users });
+    return res.json(users);
   },
 
   async create(req, res) {
@@ -45,7 +45,7 @@ module.exports = {
     const payload = req.body;
 
     const user = await User.findOne({ _id: id });
-
+    // TO DO
     // if (user.cpf !== payload.cpf) {
     //   const validateUser = await User.find({ cpf: payload.cpf });
 
