@@ -9,7 +9,7 @@
     "start": "nodemon --ignore node_modules ./src/server.js"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
+    
     "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
@@ -17,6 +17,7 @@
     "prettier": "^2.2.0"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.15"
