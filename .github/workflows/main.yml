@@ -32,7 +32,7 @@ jobs:
           source: ".,!node_modules"
           target: "~/app/softwrap-backend"
              
-      #Instalar dependencias e dar restart com o pm2
+      #Instalar dependencias e restart com o pm2
       - name: Ruan productions scripts
         uses: appleboy/ssh-action@master
         with:
