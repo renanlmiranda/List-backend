@@ -6,7 +6,8 @@
   "author": "Renan Miranda <renanlmiranda@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --ignore node_modules ./src/server.js"
+    "start": "node ./src/server.js",
+    "start:dev":"nodemon --ignore node_modules ./src/server.js"
   },
   "devDependencies": {
     
