@@ -22,7 +22,7 @@ Link: [Projeto](https://softwrap-deploy.herokuapp.com/users)
 
 ## Relatório
 
-Passei grande parte do tempo utilizando o mongoDB no docker, apesar que em produção ele esta no mongoDB Atlas, fiquei bastante tempo na parte de fazer o deploy da api, porque na primeira tentativa fiz o deploy na Digital Ocean, onde deu certo mas como não tinha um dominio, acabei tendo problemas com requisições HTTPS do front, então acabei colocando no Heroku.
+Utilizei o mongoDB no docker em ambiente de desenvolvimento, e em produção estou utilizando no mongoDB Atlas, fiquei bastante tempo na parte de fazer o deploy da api, porque na primeira tentativa fiz o deploy na Digital Ocean, onde deu certo mas como não tinha um domínio, acabei tendo problemas com requisições HTTPS do front, então acabei colocando no Heroku.
 
 
 
