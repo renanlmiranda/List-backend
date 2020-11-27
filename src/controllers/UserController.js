@@ -45,15 +45,7 @@ module.exports = {
     const payload = req.body;
 
     const user = await User.findOne({ _id: id });
-    // TO DO
-    // if (user.cpf !== payload.cpf) {
-    //   const validateUser = await User.find({ cpf: payload.cpf });
 
-    //   if (validateUser) {
-    //     throw new Error('Cpf being used by another user!');
-
-    //
-    //   }
     user.set({ ...payload, updatedAt: new Date() });
     await user.save();
 
