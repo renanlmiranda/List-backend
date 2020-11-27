@@ -1,4 +1,4 @@
-require('dotenv/config');
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
@@ -13,5 +13,5 @@ app.use(express.json());
 app.use(routes);
 
 app.listen(process.env.PORT || 3001, () => {
-  console.log('Server started on port 3001!');
+  console.log('Server started!');
 });
