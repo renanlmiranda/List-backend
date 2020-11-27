@@ -16,11 +16,11 @@ module.exports = {
   async create(req, res) {
     const payload = req.body;
     try {
-      const userValidation = await User.findOne({ cpf: payload.cpf });
+      // const userValidation = await User.findOne({ cpf: payload.cpf });
 
-      if (userValidation) {
-        throw new Error('CPF already exists!');
-      }
+      // if (userValidation) {
+      //   throw new Error('CPF already exists!');
+      // }
 
       const newUser = {
         name: payload.name,
