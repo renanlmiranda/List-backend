@@ -22,7 +22,8 @@ Link: [Projeto](https://softwrap-deploy.herokuapp.com/users)
 
 ## Relatório
 
-Utilizei o mongoDB no docker em ambiente de desenvolvimento, e em produção estou utilizando no mongoDB Atlas, fiquei bastante tempo na parte de fazer o deploy da api, porque na primeira tentativa fiz o deploy na Digital Ocean, onde deu certo mas como não tinha um domínio, acabei tendo problemas com requisições HTTPS do front, então acabei colocando no Heroku, pretendo fazer melhorias nas validações da api porque atualmente estão bem focadas na model do banco, onde coloquei algumas validações.
+Utilizei o mongoDB no docker em ambiente de desenvolvimento e em produção estou utilizando no mongoDB Atlas, fiquei bastante tempo na parte de fazer o deploy da api porque na primeira tentativa fiz na Digital Ocean, onde deu certo mas como não tinha um domínio acabei tendo problemas com requisições HTTPS do front, então acabei colocando no Heroku,
+utilizei o mongoose para conexão do banco e na criação do schema de user, pretendo fazer melhorias nas validações da api porque atualmente estão bem focadas na model do banco, onde coloquei algumas validações.
 
 
 
